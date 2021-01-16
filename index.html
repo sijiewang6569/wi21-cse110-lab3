@@ -195,10 +195,13 @@
     
     <p>Would you like to leave your personal information?</p>
     <form style="color:green;">
-        What's your name:<input type="text" name="name" value=""><br>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
         Gender: female:<input type="radio" name="female" value=0> male:<input type="radio" name="male" value=1><br>
         How old are you?: <input id="number" type="number" min="1" max="99" step="1" value="1" onBlur="regexCheckForNum()"><br>
-        Status: <input list="status" />
+        Status: <input list="status"/>
           <datalist id="status">
             <option value="Employed">
             <option value="Unemployed">
