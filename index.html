@@ -194,27 +194,23 @@
     <input type="submit" value="Submit">
     
     <p>Would you like to leave your personal information?</p>
-    <form style="color:white;background:green;">
-        Name:<input type="text" name="name" value=""><br>
-        female:<input type="radio" name="female" value=0> male:<input type="radio" name="male" value=1><br>
-        Age: <input id="number" type="number" min="1" max="99" step="1" value="1" onBlur="regexCheckForNum()"><br>
-        Married? <input type="checkbox"><br>
+    <form style="color:green;">
+        What's your name:<input type="text" name="name" value=""><br>
+        Gender: female:<input type="radio" name="female" value=0> male:<input type="radio" name="male" value=1><br>
+        How old are you?: <input id="number" type="number" min="1" max="99" step="1" value="1" onBlur="regexCheckForNum()"><br>
         Status: <input list="status" />
-                <datalist id="status">
-                    <option value="at school">
-                    <option value="working">
-                </datalist><br>
-        From UC? <select>
-                    <option value="yes">yes</option>
-                    <option value="no">no</option>
-                </select><br>
-        <button type="button">Submit First Part</button><br>
+          <datalist id="status">
+            <option value="Employed">
+            <option value="Unemployed">
+            <option value="still studying">
+          </datalist><br>
+        What's your shcool?(including studying and graduated)<input type="text" name="name" value=""><br>
         Your email: <input type="email"><br>
         Your tel: <input type="tel"><br>
         Your photo: <input type="image" alt="photo"><br>
         Your website: <input type="url"><br>
         Date of today: <input type="date"><br>
-        <input type="submit" value="Submit Second Part">
+        <input type="submit" value="Submit">
     </form>
 
     <br/>
