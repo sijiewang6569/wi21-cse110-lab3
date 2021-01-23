@@ -9,8 +9,9 @@ body
     text-align:center;
 }
 
-#title
+#sentence
 {
+    color: red;
     max-width: 125%; 
     min-width: 125%;
 }
