@@ -80,10 +80,10 @@ code.coding
     border-style: ridge;
 } 
 
-#websites 
+#websites
 {
     display: flex;
-    background: lightblue;
+    background: white;
     width: 300px;
     height: 400px;
     padding: 5px;
@@ -93,31 +93,30 @@ code.coding
     flex-direction: row;
     flex-wrap: wrap;
 }
-#websites li
+#websites li 
 {
-    background: yellow;
-    width: 150px;
-    height: 75px;
-    line-height: 75px;
+    background: lightblue;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
     border-radius: 5px;
     text-align: center;
 }
-
-#otherClasses
+#editors
 {
-    display: grid;
-    background-color: lightblue;
-    width: 300px;
-    height: 400px;
-    padding: 5px;
-    grid-template-columns: 80px 80px 80px;
-    grid-column-gap: 20px;
-    grid-template-rows: 113px 113px 114px;
-    grid-row-gap: 20px;
-}
-#otherClasses li
-{
-    background: yellow;
-    border-radius: 5px;
-    text-align: center;
-}
+      display: grid;
+      background-color: lightblue;
+      width: 300px;
+      height: 400px;
+      padding: 5px;
+      grid-template-columns: 80px 80px 80px;
+      grid-column-gap: 20px;
+      grid-template-rows: 113px 113px 114px;
+      grid-row-gap: 20px;
+ }
+ #editors li
+ {
+      background: green;
+      border-radius: 5px;
+      text-align: center;
+ }
