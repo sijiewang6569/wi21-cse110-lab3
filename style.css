@@ -84,7 +84,6 @@ code.coding
     border-color: white;
     border-width: 2px;
     border-radius: 3mm 3mm / 0.3cm 0.3cm;
-
     margin-top: 10px; margin-left: 10px; margin-right:auto; margin-bottom: auto;
     padding-top: auto; padding-left: 3px; padding-right: 3px; padding-bottom: 3px;
 }
@@ -94,19 +93,18 @@ figure
     margin: auto auto auto 100px;
     padding: 5px 5px 5px 5px;
     border: solid;
-    width: 80%;
-    height: 80%
+    width: 120%;
+    height: 120%
 }
 
-p {display: inline}
-#hidden {display: none;}
 
-#text {max-width: 125%; min-width: 125%;}
+#text 
+{
+    max-width: 125%; min-width: 125%;
+}
 
 code.codes {position: relative;}
-table {position: absolute; right: 30px;}
 
-table:hover {color: #FF00FF}
 a:active {color: #FF00FF} 
 
 #websites
