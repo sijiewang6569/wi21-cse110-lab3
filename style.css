@@ -9,9 +9,10 @@ body
     text-align:center;
 }
 
-#text
+#title
 {
-    color:red;
+    max-width: 125%; 
+    min-width: 125%;
 }
 
 *
@@ -100,12 +101,6 @@ figure
     border: 5px solid gray;
     height: 120%;
     width: 120%;
-}
-
-#title
-{
-    max-width: 125%; 
-    min-width: 125%;
 }
 
 code.codes {position: relative;}
