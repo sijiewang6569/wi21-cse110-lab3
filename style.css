@@ -1,5 +1,80 @@
-/* test style */
+/* External Style */
 body
 {
     background-color: yellow;
+}
+
+.center
+{
+    text-align:center;
+}
+
+#text
+{
+    color:red;
+}
+
+*
+{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    color: black;
+    position: relative;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Aladin', cursive;
+    color: hsla(215, 100%, 27%, 1);
+}
+
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+}
+
+div
+{
+    width: 400px;
+}
+
+input[type="text"]
+{
+    color: black;
+}
+
+form::nth-child(odd)
+{
+    background-color: rgb(180, 240, 180);
+    text-shadow: blue;
+}
+
+section, h3
+{
+    background-color: blue;
+}
+
+header h2
+{
+    font-weight: lightblue; 
+}
+
+aside > i
+{
+    color: rgb(240, 100, 100, 1);
+}
+
+li~li
+{
+    font-weight: bold; 
+}
+
+a+a
+{
+    color:#f01;
+}
+
+code.coding
+{
+    border-style: ridge;
 } 
