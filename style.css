@@ -49,6 +49,11 @@ form::nth-child(odd)
     text-shadow: blue;
 }
 
+label
+{
+    color: black;
+    font-size: 20px;
+}
 section, h3
 {
     background-color: blue;
