@@ -4,16 +4,22 @@ body
     background-color: yellow;
 }
 
+/* Selectors */
+/* Class Selector */
 .center
 {
     text-align:center;
 }
 
-#text
+/* ID Selector, Max-width / Min-width*/
+#sentence
 {
-    color:red;
+    color: red;
+    max-width: 125%; 
+    min-width: 125%;
 }
 
+/* Universal Selector */
 *
 {
     font-family: 'PT Sans Narrow', sans-serif;
@@ -22,6 +28,7 @@ body
     position: relative;
 }
 
+/* Element Selector */
 h1 {
     font-size: 50px;
     font-family: 'Aladin', cursive;
@@ -38,20 +45,29 @@ div
     width: 400px;
 }
 
+/* Attribute Selector */
 input[type="text"]
 {
     color: black;
 }
 
+/* Pseudo-class Selectors */
 form::nth-child(odd)
 {
     background-color: rgb(180, 240, 180);
     text-shadow: blue;
 }
 
+label
+{
+    color: black;
+    font-size: 20px;
+}
+
+/* Grouping / Combinators */
 section, h3
 {
-    background-color: blue;
+    background-color: lightblue;
 }
 
 header h2
@@ -75,7 +91,102 @@ td+td
     font-weight: bold;
 }
 
+/* Borders */
 code.coding
 {
+    border: double;
     border-style: ridge;
-} 
+    border-color: red;
+    border-width: 0.125em;
+    border-radius: 0.01mm / 0.05mm;
+    width: 20em;
+    height: 3ex;
+    margin-top: 10px; margin-left: 0px; margin-right:auto; margin-bottom: auto;
+    padding-top: auto; padding-left: 0px; padding-right: 3px; padding-bottom: 3px;
+}
+
+/* Box Model */
+figure
+{
+    margin: auto auto auto auto;
+    padding: 5px 5px 5px 5px;
+    border: 5px solid gray;
+    height: 120%;
+    width: 120%;
+}
+
+/* Display */
+p.ex1 
+{
+    display: none;
+}
+p.ex2 {
+    color: red;
+    display: inline;
+}
+
+/* position */
+code.codes {
+    position: relative;
+}
+template {
+    position: absolute;
+}
+
+/* Pseudo-class */
+a:link {
+  color: red;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
+}
+
+/* FlexBox */
+#websites
+{
+    display: flex;
+    background: white;
+    width: 300px;
+    height: 400px;
+    padding: 5px;
+    flex-grow: initial;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+#websites li 
+{
+    text-align: center;
+    background-color: lightblue;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+}
+
+/* Grid */
+#editors
+{
+      display: grid;
+      background-color: lightblue;
+      width: 300px;
+      height: 300px;
+      padding: 5px;
+      grid-template-columns: 80px 80px 80px;
+      grid-column-gap: 20px;
+      grid-template-rows: 135px 135px;
+      grid-row-gap: 20px;
+ }
+ #editors li
+ {
+      text-align: center;
+      background-color: green;
+      border-radius: 5px;
+ }

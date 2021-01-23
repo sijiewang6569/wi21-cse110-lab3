@@ -29,14 +29,14 @@
   <body>
     <!-- Inline CSS -->
     <header style="color:white;background:green;">
-      <h1 class="center" id="text">Welcome to Sijie's Page</h1>
+      <h1 class="center">Welcome to Sijie's Page</h1>
       <h2 class="center">Program Languages</h2>  
     </header>
     
-    <figure style="text-align:center;">
+    <figure>
       <img src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2014/02/programming-language.jpg?q=50&fit=contain&w=750&h=375&dpr=1.5" alt="Programming Lanaguage">
       <figcaption>
-        <b>Programming Languages</b>
+        <b class="center">Programming Languages</b>
       </figcaption>
     </figure>
     
@@ -62,7 +62,10 @@
         <img src="https://www.assignmentexpert.com/blog/wp-content/uploads/2019/10/hardest-programming-language.png" alt="PL">
     </picture>
     <br>
-    <p>w3school is a very useful website for learning programming.</p>
+    <p>
+      <p class="ex2"> w3school </p> is a very useful website for learning programming.
+    </p>
+    <br>
     <iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
     <br>
     <p>audio and video can not play on your browser.<p><br>
@@ -76,6 +79,29 @@
       Your browser does not support the HTML canvas tag.
     </canvas>
     <br>
+    
+    <h3> Some Useful Websites for Learning Programming </h3>
+    <ul id="websites">
+      <li> Threehouse </li>
+      <li> Codehs </li>
+      <li> Code School </li>
+      <li> EDX </li>
+      <li> Coursera </li>
+      <li> Lynda </li>
+      <li> Github </li>
+      <li> Freecodecamp </li>
+      <li> Sitepoint </li>
+    </ul>
+    <h3> Some Useful Code Editors </h3>
+    <ul id="editors">
+      <li> VSCode </li>
+      <li> Atom </li>
+      <li> NetBeans </li>
+      <li> Bluefish </li>
+      <li> Brackets </li>
+      <li> Vim </li>
+    </ul>
+    <br>
     <div style="color:#ff0000">
         <i><span>Java</span> is my favorite programming language!</i>
     </div>
@@ -84,6 +110,7 @@
         <i>Most struggling programming language for me is C++.</i>
     </aside>
     
+    <p class="ex1"> Do't like programming </p>
     <strong>Some tips to learn programming:</strong>
     <ul>
         <li>Learn by doing. Always play with the code while learning</li>
@@ -183,7 +210,7 @@
     <br>
     
     <details>
-      <summary>Let's do a Quick Survey &#128516;</summary>
+      <summary id="sentence">Let's do a Quick Survey &#128516;</summary>
       Please tell me what's your favirote programming language &#128512;<br>
         <input type="radio" id="C++" name="Language">
         <label for="C++">C++</label><br/>
