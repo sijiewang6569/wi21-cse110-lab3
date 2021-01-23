@@ -101,7 +101,7 @@ code.coding
 
 figure
 {
-    margin: auto auto auto auto;
+    margin: auto auto auto 100px;
     padding: 5px 5px 5px 5px;
     border: 5px solid gray;
     height: 120%;
