@@ -89,19 +89,19 @@ td+td
 code.coding
 {
     border: double;
-    width: 20em;
-    height: 3ex;
     border-style: ridge;
     border-color: red;
-    border-width: 2px;
-    border-radius: 3mm 3mm / 0.3cm 0.3cm;
+    border-width: 0.125em;
+    border-radius: 0.01mm / 0.05mm;
+    width: 20em;
+    height: 3ex;
     margin-top: 10px; margin-left: 0px; margin-right:auto; margin-bottom: auto;
     padding-top: auto; padding-left: 0px; padding-right: 3px; padding-bottom: 3px;
 }
 
 figure
 {
-    margin: auto auto auto 100px;
+    margin: auto auto auto auto;
     padding: 5px 5px 5px 5px;
     border: 5px solid gray;
     height: 120%;
