@@ -59,7 +59,7 @@ section h1
     font-weight: lightblue; 
 }
 
-aside > h3
+aside > i
 {
     color: rgb(240, 100, 100);
 }
@@ -69,12 +69,12 @@ li~li
     font-weight: bold; 
 }
 
-th+th
+a+a
 {
     color:#f01;
 }
 
-code.codes
+code.coding
 {
     border-style: ridge;
 } 
