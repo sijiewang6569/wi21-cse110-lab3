@@ -90,17 +90,17 @@ code.coding
 
 figure
 {
-    margin: auto auto auto 100px;
+    margin: auto auto auto auto;
     padding: 5px 5px 5px 5px;
-    border: solid;
+    border: 5px solid gray;
+    height: 120%;
     width: 120%;
-    height: 120%
 }
-
 
 #title
 {
-    max-width: 125%; min-width: 125%;
+    max-width: 125%; 
+    min-width: 125%;
 }
 
 code.codes {position: relative;}
