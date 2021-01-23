@@ -104,9 +104,25 @@ figure
     width: 120%;
 }
 
-code.codes {position: relative;}
+code.codes {
+    position: relative;
+}
+svg{
+    position: absolute;
+}
 
-a:active {color: #FF00FF} 
+a:link {
+  color: red;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
+}
 
 #websites
 {
