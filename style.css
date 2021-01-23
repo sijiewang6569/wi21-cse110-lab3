@@ -4,6 +4,8 @@ body
     background-color: yellow;
 }
 
+/* Selectors */
+
 .center
 {
     text-align:center;
@@ -56,6 +58,8 @@ label
     color: black;
     font-size: 20px;
 }
+
+/* Grouping / Combinators */
 section, h3
 {
     background-color: blue;
@@ -104,6 +108,14 @@ figure
     width: 120%;
 }
 
+p.ex1 
+{
+    display: none;
+}
+p.ex2 {
+    display: inline;
+}
+
 code.codes {
     position: relative;
 }
@@ -124,6 +136,7 @@ a:active {
   color: blue;
 }
 
+/* FlexBox */
 #websites
 {
     display: flex;
@@ -146,6 +159,8 @@ a:active {
     border-radius: 5px;
     text-align: center;
 }
+
+/* Grid */
 #editors
 {
       display: grid;
