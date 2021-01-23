@@ -88,15 +88,15 @@ td+td
 
 code.coding
 {
-    border: solid;
+    border: double;
     width: 20em;
     height: 3ex;
     border-style: ridge;
-    border-color: white;
+    border-color: red;
     border-width: 2px;
     border-radius: 3mm 3mm / 0.3cm 0.3cm;
-    margin-top: 10px; margin-left: 10px; margin-right:auto; margin-bottom: auto;
-    padding-top: auto; padding-left: 3px; padding-right: 3px; padding-bottom: 3px;
+    margin-top: 10px; margin-left: 0px; margin-right:auto; margin-bottom: auto;
+    padding-top: auto; padding-left: 0px; padding-right: 3px; padding-bottom: 3px;
 }
 
 figure
