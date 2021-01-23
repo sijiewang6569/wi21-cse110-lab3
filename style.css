@@ -56,7 +56,8 @@ section, h3
 
 header h2
 {
-    font-weight: lightblue; 
+    color: rgb(21, 160, 176);
+    font-weight: bold; 
 }
 
 aside > i
@@ -64,14 +65,14 @@ aside > i
     color: rgb(240, 100, 100, 1);
 }
 
-li~li
+tr~tr
 {
-    font-weight: bold; 
+    font-weight: lighter; 
 }
 
-a+a
+td+td
 {
-    color:#f01;
+    font-weight: bold;
 }
 
 code.coding
