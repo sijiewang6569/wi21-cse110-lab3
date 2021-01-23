@@ -49,19 +49,19 @@ form::nth-child(odd)
     text-shadow: blue;
 }
 
-section, h1
+section, h3
 {
     background-color: blue;
 }
 
-section h1
+header h2
 {
     font-weight: lightblue; 
 }
 
 aside > i
 {
-    color: rgb(240, 100, 100);
+    color: rgb(240, 100, 100, 1);
 }
 
 li~li
