@@ -133,6 +133,169 @@ figure
     flex-grow:initial;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+#websites li 
+{
+    text-align: center;
+    background-color: lightseagreen;
+    line-height: 50px;
+    width: 140px;
+    height: 50px;
+}
+
+/* Display */
+p.ex1 
+{
+    display: none;
+}
+p.ex2 {
+    color: red;
+    display: inline;
+}
+
+/* position */
+code.codes {
+    position: relative;
+}
+template {
+    position: absolute;
+}
+
+/* Pseudo-class */
+a:link {
+  color: red;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
+}
+
+/* Grid */
+#editors
+{
+      display: grid;
+      background-color: burlywood;
+      width: 300px;
+      height: 300px;
+      padding: 5px;
+      grid-template-columns: 130px 130px;
+      grid-column-gap: 20px;
+      grid-template-rows: 80px 80px 80px;
+      grid-row-gap: 20px;
+ }
+ #editors li
+ {
+      text-align: center;
+      background-color:olivedrab;
+      border-style: groove;
+ }
+
+
+div
+{
+    width: 400px;
+}
+
+/* Attribute Selector */
+input[type="text"]
+{
+    color: black;
+}
+
+/* Pseudo-class Selectors */
+form::nth-child(odd)
+{
+    background-color: rgb(180, 240, 180);
+    text-shadow: blue;
+}
+
+body 
+{
+    background-color: yellow;
+}
+label
+{
+    color: black;
+    font-size: 20px;
+}
+
+/* Grouping / Combinators */
+section, h3
+{
+    background-color: lightblue;
+}
+
+/* Borders */
+footer > p 
+{
+    border: double;
+    border-style: ridge;
+    border-color: blueviolet;
+    border-width: 0.125em; 
+    border-bottom-left-radius: 0.1mm; 
+    border-top-left-radius: 0.1mm;
+    border-top-right-radius: 0.2mm;
+    border-bottom-right-radius: 0.2mm; 
+    width: 20em;
+    height: 3ex;
+    margin-top: 10px; margin-left: 0px; margin-right:auto; margin-bottom: auto;
+    padding-top: auto; padding-left: 0px; padding-right: 3px; padding-bottom: 3px;
+}
+
+header h2
+{
+    color: rgb(21, 160, 176);
+    font-weight: bold;
+}
+
+aside > i
+{
+    color: rgb(240, 100, 100, 1);
+}
+
+tr~tr
+{
+    font-weight: lighter; 
+}
+
+td+td
+{
+    font-weight: bold;
+}
+
+code.coding
+{
+    color: black;
+    background-color: lightcyan;
+}
+
+/* Box Model */
+figure
+{
+    margin: auto auto auto auto;
+    padding: 5px 5px 5px 5px;
+    border: 5px solid gray;
+    height: 120%;
+    width: 120%;
+}
+
+/* FlexBox */
+#websites
+{
+    display: flex;
+    background: yellow;
+    width: 300px;
+    height: 400px;
+    padding: 5px;
+    flex-grow:initial;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
 #websites li 
