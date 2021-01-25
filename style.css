@@ -52,6 +52,10 @@ form::nth-child(odd)
     text-shadow: blue;
 }
 
+body 
+{
+    background-color: yellow;
+}
 label
 {
     color: black;
@@ -65,13 +69,11 @@ section, h3
 }
 
 /* Borders */
-header h2
+footer > p 
 {
-    color: rgb(21, 160, 176);
-    font-weight: bold;
     border: double;
     border-style: ridge;
-    border-color: red;
+    border-color: blueviolet;
     border-width: 0.125em; 
     border-bottom-left-radius: 0.1mm; 
     border-top-left-radius: 0.1mm;
@@ -81,6 +83,12 @@ header h2
     height: 3ex;
     margin-top: 10px; margin-left: 0px; margin-right:auto; margin-bottom: auto;
     padding-top: auto; padding-left: 0px; padding-right: 3px; padding-bottom: 3px;
+}
+
+header h2
+{
+    color: rgb(21, 160, 176);
+    font-weight: bold;
 }
 
 aside > i
@@ -118,24 +126,22 @@ figure
 #websites
 {
     display: flex;
-    background: white;
+    background: yellow;
     width: 300px;
     height: 400px;
     padding: 5px;
-    flex-grow: initial;
+    flex-grow:initial;
     flex-direction: row;
     flex-wrap: wrap;
-    flex-shrink: initial; 
     justify-content: space-between;
 }
 #websites li 
 {
     text-align: center;
-    background-color: lightblue;
-    width: 100px;
-    height: 50px;
+    background-color: lightseagreen;
     line-height: 50px;
-    border-radius: 5px;
+    width: 120px;
+    height: 50px;
 }
 
 /* Display */
@@ -189,4 +195,3 @@ a:active {
       background-color:olivedrab;
       border-style: groove;
  }
-
