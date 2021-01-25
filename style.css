@@ -132,13 +132,12 @@ figure
     padding: 5px;
     flex-grow:initial;
     flex-direction: row;
-    flex-shrink: initial; 
     justify-content: space-between;
 }
 #websites li 
 {
     text-align: center;
-    background-color: lightgrey;
+    background-color: lightseagreen;
     line-height: 50px;
     width: 140px;
     height: 50px;
