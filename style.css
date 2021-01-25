@@ -67,7 +67,9 @@ section, h3
 {
     background-color: lightblue;
 }
-footer, p 
+
+/* Borders */
+footer > p 
 {
     border: double;
     border-style: ridge;
@@ -83,7 +85,6 @@ footer, p
     padding-top: auto; padding-left: 0px; padding-right: 3px; padding-bottom: 3px;
 }
 
-/* Borders */
 header h2
 {
     color: rgb(21, 160, 176);
