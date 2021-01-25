@@ -66,6 +66,9 @@ label
 section, h3
 {
     background-color: lightblue;
+}
+footer, p 
+{
     border: double;
     border-style: ridge;
     border-color: blueviolet;
@@ -128,7 +131,6 @@ figure
     padding: 5px;
     flex-grow:initial;
     flex-direction: row;
-    flex-flow: row; 
     flex-shrink: initial; 
 }
 #websites li 
