@@ -1,9 +1,3 @@
-/* External Style */
-body
-{
-    background-color: yellow;
-}
-
 /* Selectors */
 /* Class Selector */
 .center
@@ -70,10 +64,23 @@ section, h3
     background-color: lightblue;
 }
 
+/* Borders */
 header h2
 {
     color: rgb(21, 160, 176);
-    font-weight: bold; 
+    font-weight: bold;
+    border: double;
+    border-style: ridge;
+    border-color: red;
+    border-width: 0.125em; 
+    border-bottom-left-radius: 0.1mm; 
+    border-top-left-radius: 0.1mm;
+    border-top-right-radius: 0.2mm;
+    border-bottom-right-radius: 0.2mm; 
+    width: 20em;
+    height: 3ex;
+    margin-top: 10px; margin-left: 0px; margin-right:auto; margin-bottom: auto;
+    padding-top: auto; padding-left: 0px; padding-right: 3px; padding-bottom: 3px;
 }
 
 aside > i
@@ -91,18 +98,10 @@ td+td
     font-weight: bold;
 }
 
-/* Borders */
 code.coding
 {
-    border: double;
-    border-style: ridge;
-    border-color: red;
-    border-width: 0.125em;
-    border-radius: 0.01mm / 0.05mm;
-    width: 20em;
-    height: 3ex;
-    margin-top: 10px; margin-left: 0px; margin-right:auto; margin-bottom: auto;
-    padding-top: auto; padding-left: 0px; padding-right: 3px; padding-bottom: 3px;
+    color: black;
+    background-color: lightcyan;
 }
 
 /* Box Model */
@@ -113,6 +112,30 @@ figure
     border: 5px solid gray;
     height: 120%;
     width: 120%;
+}
+
+/* FlexBox */
+#websites
+{
+    display: flex;
+    background: white;
+    width: 300px;
+    height: 400px;
+    padding: 5px;
+    flex-grow: initial;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: initial; 
+    justify-content: space-between;
+}
+#websites li 
+{
+    text-align: center;
+    background-color: lightblue;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
 }
 
 /* Display */
@@ -147,46 +170,22 @@ a:active {
   color: blue;
 }
 
-/* FlexBox */
-#websites
-{
-    display: flex;
-    background: white;
-    width: 300px;
-    height: 400px;
-    padding: 5px;
-    flex-grow: initial;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
-}
-#websites li 
-{
-    text-align: center;
-    background-color: lightblue;
-    width: 100px;
-    height: 50px;
-    line-height: 50px;
-    border-radius: 5px;
-}
-
 /* Grid */
 #editors
 {
       display: grid;
-      background-color: lightblue;
+      background-color: burlywood;
       width: 300px;
       height: 300px;
       padding: 5px;
-      grid-template-columns: 80px 80px 80px;
+      grid-template-columns: 130px 130px;
       grid-column-gap: 20px;
-      grid-template-rows: 135px 135px;
+      grid-template-rows: 80px 80px 80px;
       grid-row-gap: 20px;
  }
  #editors li
  {
       text-align: center;
-      background-color: green;
-      border-radius: 5px;
+      background-color:olivedrab;
+      border-style: groove;
  }
