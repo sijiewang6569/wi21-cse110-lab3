@@ -132,7 +132,8 @@ figure
     padding: 5px;
     flex-grow:initial;
     flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 #websites li 
 {
